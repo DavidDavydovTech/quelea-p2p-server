@@ -12,7 +12,7 @@ app.use(compression());
 app.route('/')
   .get((req, res) => {
     console.log('reached')
-    res.status(200).send('Hi!')
+    res.status(200).send('Hi from the API!')
   });
 
 module.exports = app;
