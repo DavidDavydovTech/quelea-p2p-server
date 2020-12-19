@@ -1,21 +1,10 @@
 // Packages
 const express = require('express');
-const cookieParser = require('cookie-parser');
-const cors = require('cors');
-const compression = require('compression');
+const subdomain = require('express-subdomain');
 // Apps
-
+const apiApp = require('./api/app');
 
 const app = express();
-
-app.use(cookieParser());
-app.use(cors());
-app.use(compression());
-
-app.route('/')
-  .get((req, res) => {
-    console.log('reached')
-    res.status(200).send('Hi!')
-  });
+app.use(subdomain('api', apiApp));
 
 module.exports = app;
