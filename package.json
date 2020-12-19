@@ -1,0 +1,9 @@
+{
+  "name": "quelea-p2p-server",
+  "version": "1.0.0",
+  "description": "Server for the Quelea P2P mini-app",
+  "main": "index.js",
+  "repository": "https://github.com/DavidDavydovTech/quelea-p2p-server",
+  "author": "David J. Davydov <davydovjd611@gmail.com>",
+  "license": "MIT"
+}
