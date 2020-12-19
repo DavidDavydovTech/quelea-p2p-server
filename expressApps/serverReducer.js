@@ -2,9 +2,9 @@
 const express = require('express');
 const subdomain = require('express-subdomain');
 // Apps
-const apiApp = require('./api/app');
-const ircApp = require('./irc/app');
-const websiteApp = require('./website/app');
+const apiApp = require('./quelea-p2p-server-api/index');
+const ircApp = require('./quelea-p2p-server-irc/index');
+const websiteApp = require('./quelea-p2p-server-website/index');
 
 const app = express();
 app.use(subdomain('api', apiApp));
