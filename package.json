@@ -6,6 +6,9 @@
   "repository": "https://github.com/DavidDavydovTech/quelea-p2p-server",
   "author": "David J. Davydov <davydovjd611@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start-dev": "PORT=8443 CERTIFICATE=selfsigned.crt PRIVATE_KEY=selfsigned.key nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-subdomain": "^1.0.5"
