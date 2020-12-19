@@ -1,0 +1,9 @@
+[submodule "expressApps/quelea-p2p-server-api"]
+	path = expressApps/quelea-p2p-server-api
+	url = https://github.com/DavidDavydovTech/quelea-p2p-server-api
+[submodule "expressApps/quelea-p2p-server-website"]
+	path = expressApps/quelea-p2p-server-website
+	url = https://github.com/DavidDavydovTech/quelea-p2p-server-website
+[submodule "expressApps/quelea-p2p-server-irc"]
+	path = expressApps/quelea-p2p-server-irc
+	url = https://github.com/DavidDavydovTech/quelea-p2p-server-irc
