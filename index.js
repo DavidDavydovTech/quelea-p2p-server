@@ -1,6 +1,6 @@
 // ENV variables:
 const { PRIVATE_KEY, CERTIFICATE, PORT} = process.env;
-// Imports
+// Packages
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
