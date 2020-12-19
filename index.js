@@ -6,8 +6,8 @@ const path = require('path');
 const https = require('https');
 const cert = fs.readFileSync( path.join(__dirname, '_secrets', CERTIFICATE), 'utf-8');
 const key = fs.readFileSync( path.join(__dirname, '_secrets', PRIVATE_KEY), 'utf-8');
-// File Imports
-const app = require('./express');
+// App Reducer Import
+const app = require('./expressApps/appReducer');
 
 const server = https.createServer({cert, key}, app);
 
