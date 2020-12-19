@@ -10,6 +10,9 @@
     "start-dev": "PORT=8443 CERTIFICATE=selfsigned.crt PRIVATE_KEY=selfsigned.key nodemon index.js"
   },
   "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-subdomain": "^1.0.5"
   }
